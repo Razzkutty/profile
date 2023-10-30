@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap')
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.body {
+    height: auto;
+    width: 100vw;
+    text-align: center;
+
+}
+
+.pf3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile {
+    margin-top: 20px;
+    height: 90vh;
+    width: 29vw;
+    box-shadow: 0 0 5px #5c5555;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #4c4545;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.details {
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.container img {
+    height: 80%;
+    width: 80%;
+    margin-left: 35px;
+}
+
+@media (max-width:500px) {
+    .pf3 {
+        display: block !important;
+    }
+
+    .profile {
+        margin: 10px 5% !important;
+        width: 90% !important;
+        height: auto !important;
+
+    }
+
+    img {
+     position: relative;
+   
+    opacity: 1;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width:1000px) {
+    .pf3 {
+     display: flex !important;
+    }
+
+    .profile {
+        margin: 10px 5%;
+        width: 90%;
+        height: auto;
+
+    }
+
+    img {
+     position: relative;
+   
+    opacity: 1;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+}
+@media (max-width:800px) {
+    .pf3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .profile {
+        margin: 10px 5%;
+        width: 40%;
+        height: auto;
+
+    }
+
+    img {
+     position: relative;
+   
+    opacity: 1;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
